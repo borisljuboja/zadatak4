@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <title>GitHub Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">devfinder</h1>
+            <div class="light_dark_btn">
+                <span class="dark_light">dark</span><img class="moon_sun" src="images/icon-moon.svg" alt="moon/sun">
+            </div>
+        </header>
+        <form id="form" action="">
+            <img class="loupe" src="images/icon-search.svg" alt="search">
+            <input type="search" id="search" placeholder="Search GitHub username…">
+            <span class="error">No results</span>
+            <input type="submit" id="button" value="Search">
+        </form>
+        <div class="user_informations">
+            <div class="head_info">
+                <div class="profile_p">
+                    <img id="profile_picture" src="images/profilepic.png" width="20%" height="40%"
+                        alt="profile_piceture">
+                </div>
+                <h1 class="username">The Octocat</h1><span class="joined">Joined 25 Jan 2011</span>
+                <p class="blue">@octocat</p>
+                <p class="bio">This profile has no bio</p>
+            </div>
+            <div class="stats">
+                <p id="info" class="repos">Repos</p>
+                <span class="number reponum">8</span>
+                <p id="info" class="followers">Followers</p>
+                <span class="number folnum">3938</span>
+                <p id="info" class="following">Following</p>
+                <span class="number follownum">9</span>
+            </div>
+            <div class="upper_icons">
+                <img src="images/icon-location.svg" alt="location"><span class="location">San Francisco</span>
+                <img src="images/icon-twitter.svg" alt="twiter"><span class="availability">Not available</span>
+            </div>
+            <div class="lower_icons">
+                <img src="images/icon-website.svg" alt="web"><a id="blog" href="https://github.com/"></a>
+                <img src="images/icon-company.svg" alt="company"><span class="company">@github</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
